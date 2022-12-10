@@ -1,0 +1,49 @@
+:root {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-image: url("space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    background-color: rgb(22, 21, 21);
+    opacity: 0.5;
+    color: white;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 30%;
+    min-height: 30%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 60%;
+    max-width: 60%;
+    min-height: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+.form-upper-text {
+    margin: 30px 30px;
+}
+
+.boxform {
+    min-height: 40%;
+    background-color: rgb(22, 21, 21);
+}
