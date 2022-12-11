@@ -5,23 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!--Fonts taken from Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="logo">
-        CENTAURI
+        <div class="logo-text">NEBULA</div>
     </div>
     <div class="right-side">
-        <p class="form-upper-text">
+        <p class="form-header">
             Sign up for the  most SPACEious experience you'll ever have
             on world wide web. Absolutely free, just like an asteroid 
             roaming our galaxy.
         </p>
-        <div class="boxform">
-            <form>
-
+        <div class="box-form">
+            <form id="Login">
+                <p class="form-text">Sign Up</p>
+                <div class="row-of-inputs">
+                    <div class="input-column">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div class="input-column">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>
+                </div>
+                <div class="row-of-inputs">
+                    <div class="input-column">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="input-column">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" name="phoneNumber" id="tel">
+                    </div>
+                </div>
+                <div class="row-of-inputs">
+                    <div class="input-column">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="input-column">
+                        <label for="conPass">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPassword" id="conPass">
+                    </div>
+                </div>
             </form>
         </div>
+        <input type="submit" form="Login" value="submit" class="form-button">
     </div>
 </body>
 </html>
